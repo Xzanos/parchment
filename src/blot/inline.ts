@@ -20,7 +20,7 @@ class InlineBlot extends FormatBlot {
   static tagName = 'SPAN';
 
   static formats(domNode: HTMLElement): any {
-    if (domNode.tagName === InlineBlot.tagName) return undefined;
+//     if (domNode.tagName === InlineBlot.tagName) return undefined;
     return super.formats(domNode);
   }
 
